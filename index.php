@@ -165,8 +165,6 @@ if (isset($_POST['add_friend'])) {
 
     if ($err) {
         echo "cURL Error #:" . $err;
-    } else {
-        echo $response;
     }
 }
 ?>
